@@ -1,24 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>George Loh - Building Real Solutions for Real Businesses</title>
-    <meta name="description" content="Performance marketer turned Shopify app entrepreneur. Documenting my journey building practical apps that solve real problems for merchants." />
-    <meta name="author" content="George Loh" />
+    <meta name="description" content="Performance marketer turned Shopify app entrepreneur. Documenting my journey building practical apps that solve real problems for merchants.">
+    <meta name="author" content="George Loh">
+    
+    <meta property="og:title" content="George Loh - Building Real Solutions for Real Businesses">
+    <meta property="og:description" content="Performance marketer turned Shopify app entrepreneur. Documenting my journey building practical apps that solve real problems for merchants.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://georgelohbuilds.com/hero-bg.jpg">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@georgelohbuilds">
+    <meta name="twitter:image" content="https://georgelohbuilds.com/hero-bg.jpg">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">George Loh</h1>
+            <p class="hero-tagline">Building real solutions for real businesses.</p>
+            <p class="hero-description">
+                Performance marketer turned Shopify app entrepreneur. I'm documenting my journey building practical apps that solve real problems for merchants.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToMission()">Learn More</button>
+                <button class="btn btn-secondary" onclick="scrollToContact()">Get In Touch</button>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
 
-    <meta property="og:title" content="George Loh - Building Real Solutions for Real Businesses" />
-    <meta property="og:description" content="Performance marketer turned Shopify app entrepreneur. Documenting my journey building practical apps that solve real problems for merchants." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <!-- Mission Section -->
+    <section id="mission" class="mission">
+        <div class="container">
+            <h2 class="section-title">My Mission & Vision</h2>
+            <div class="mission-grid">
+                <div class="mission-card">
+                    <div class="mission-icon">🎯</div>
+                    <h3>Mission</h3>
+                    <p>To build Shopify apps that solve real, painful, and often ignored problems for merchants — practical tools that help businesses run better, not just look good on paper.</p>
+                </div>
+                <div class="mission-card">
+                    <div class="mission-icon">🌟</div>
+                    <h3>Vision</h3>
+                    <p>To become a trusted builder who empowers entrepreneurs and small businesses worldwide with apps that are simple, effective, and high-impact — making technology feel like an ally, not a burden.</p>
+                </div>
+            </div>
+            
+            <div class="values">
+                <h3 class="values-title">Core Values</h3>
+                <div class="values-grid">
+                    <div class="value-item">
+                        <h4>Authenticity</h4>
+                        <p>Share the journey openly, wins and failures alike.</p>
+                    </div>
+                    <div class="value-item">
+                        <h4>Impact</h4>
+                        <p>Focus on solving problems that make a real difference to businesses.</p>
+                    </div>
+                    <div class="value-item">
+                        <h4>Simplicity</h4>
+                        <p>Build tools that are easy to understand and effortless to use.</p>
+                    </div>
+                    <div class="value-item">
+                        <h4>Usefulness</h4>
+                        <p>Prioritize practicality over vanity; every feature should earn its place.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+    <!-- Journey Section -->
+    <section class="journey">
+        <div class="container">
+            <h2 class="section-title">My Journey</h2>
+            <p class="journey-subtitle">From performance marketing to app development</p>
+            <div class="journey-content">
+                <p class="journey-description">
+                    I started my career as a performance marketer, running campaigns and obsessing over numbers — CPMs, CTRs, and ROAS. Over time, I realized that while ads can drive growth, the biggest impact comes from solving the real problems businesses face every day. That's why I'm shifting gears into building Shopify apps. Right now, I'm learning in public, sharing the process openly, and laying the groundwork for tools that will make life easier for merchants. This site is where I'll document that journey — from marketer to app entrepreneur.
+                </p>
+                
+                <div class="journey-stages">
+                    <div class="stage">
+                        <div class="stage-icon">📈</div>
+                        <h3>Performance Marketing</h3>
+                        <p>Years of optimizing campaigns, analyzing data, and driving growth through paid advertising.</p>
+                    </div>
+                    <div class="stage">
+                        <div class="stage-icon">💻</div>
+                        <h3>Learning to Build</h3>
+                        <p>Diving deep into development, understanding merchant pain points, and building real solutions.</p>
+                    </div>
+                    <div class="stage">
+                        <div class="stage-icon">🚀</div>
+                        <h3>Solving Real Problems</h3>
+                        <p>Creating Shopify apps that make a genuine difference in how businesses operate.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <!-- Future Apps Section -->
+    <section id="apps" class="future-apps">
+        <div class="container">
+            <h2 class="section-title">Apps Coming Soon</h2>
+            <p class="section-subtitle">Building practical solutions for real business problems</p>
+            
+            <div class="apps-grid">
+                <div class="app-card">
+                    <div class="app-icon">📦</div>
+                    <h3>Inventory Helper</h3>
+                    <p>Smart inventory management that actually makes sense for small businesses.</p>
+                    <div class="app-status">
+                        <span class="status-icon">🕐</span>
+                        <span>In Planning</span>
+                    </div>
+                </div>
+                <div class="app-card">
+                    <div class="app-icon">💡</div>
+                    <h3>Customer Insights</h3>
+                    <p>Turn your customer data into actionable insights without the complexity.</p>
+                    <div class="app-status">
+                        <span class="status-icon">🕐</span>
+                        <span>Research Phase</span>
+                    </div>
+                </div>
+                <div class="app-card">
+                    <div class="app-icon">⚡</div>
+                    <h3>Performance Optimizer</h3>
+                    <p>Speed up your store and boost conversions with one-click optimizations.</p>
+                    <div class="app-status">
+                        <span class="status-icon">🕐</span>
+                        <span>Concept Stage</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Follow My Journey</h2>
+            <p class="section-subtitle">Stay updated as I build in public</p>
+            
+            <div class="contact-methods">
+                <a href="https://github.com/georgelohbuilds" target="_blank" rel="noopener noreferrer" class="contact-link">
+                    <div class="contact-icon">📂</div>
+                    <div class="contact-info">
+                        <h3>GitHub</h3>
+                        <p>See my code and progress</p>
+                    </div>
+                </a>
+                
+                <a href="https://x.com/georgelohbuilds" target="_blank" rel="noopener noreferrer" class="contact-link">
+                    <div class="contact-icon">🐦</div>
+                    <div class="contact-info">
+                        <h3>X (Twitter)</h3>
+                        <p>Daily updates and thoughts</p>
+                    </div>
+                </a>
+                
+                <a href="https://linkedin.com/in/georgelohbuilds" target="_blank" rel="noopener noreferrer" class="contact-link">
+                    <div class="contact-icon">💼</div>
+                    <div class="contact-info">
+                        <h3>LinkedIn</h3>
+                        <p>Professional updates</p>
+                    </div>
+                </a>
+                
+                <a href="mailto:george@georgelohbuilds.com" class="contact-link">
+                    <div class="contact-icon">✉️</div>
+                    <div class="contact-info">
+                        <h3>Email</h3>
+                        <p>Direct contact</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 George Loh. Built with ❤️ by George Loh.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
