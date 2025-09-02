@@ -53,7 +53,7 @@ export const Contact = () => {
                 </a>
                 
                 <a 
-                  href="https://twitter.com" 
+                  href="https://x.com/georgelohbuilds" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-gradient-card rounded-lg shadow-sm hover:shadow-md transition-all group"
